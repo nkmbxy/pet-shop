@@ -1,11 +1,10 @@
 "use client";
 
 import * as React from "react";
-import { Box, Chip, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import LogoutIcon from "@mui/icons-material/Logout";
 import Button from "./Button";
 import PawIcon from "./PawIcon";
-import { APP_ENV } from "@/lib/api";
 
 export interface HeaderProps {
   userName?: string;
@@ -53,19 +52,6 @@ export function Header({ userName, onLogout }: HeaderProps) {
         >
           Pet shop management system
         </Typography>
-        {APP_ENV !== "prod" && (
-          <Chip
-            label={APP_ENV}
-            size="small"
-            sx={{
-              backgroundColor: "secondary.main",
-              color: "#12231f",
-              fontWeight: 700,
-              height: 20,
-              fontSize: "0.7rem",
-            }}
-          />
-        )}
       </Box>
 
       <Box
