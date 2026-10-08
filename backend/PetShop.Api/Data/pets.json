@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Mochi",
+    "species": "Dog",
+    "breed": "Shiba Inu",
+    "ageMonths": 8,
+    "price": 32000,
+    "status": "Available"
+  },
+  {
+    "id": 2,
+    "name": "Luna",
+    "species": "Cat",
+    "breed": "British Shorthair",
+    "ageMonths": 5,
+    "price": 18000,
+    "status": "Available"
+  },
+  {
+    "id": 3,
+    "name": "Biscuit",
+    "species": "Dog",
+    "breed": "Corgi",
+    "ageMonths": 10,
+    "price": 28000,
+    "status": "Reserved"
+  },
+  {
+    "id": 4,
+    "name": "Sunny",
+    "species": "Bird",
+    "breed": "Cockatiel",
+    "ageMonths": 14,
+    "price": 4500,
+    "status": "Available"
+  },
+  {
+    "id": 6,
+    "name": "Miso",
+    "species": "Cat",
+    "breed": "Scottish Fold",
+    "ageMonths": 4,
+    "price": 22000,
+    "status": "Available"
+  },
+  {
+    "id": 7,
+    "name": "pinkykiki",
+    "species": "Dog",
+    "breed": "Corgi",
+    "ageMonths": 10,
+    "price": 10000,
+    "status": "Available"
+  },
+  {
+    "id": 9,
+    "name": "arbell",
+    "species": "Cat",
+    "breed": "Scottish Fold",
+    "ageMonths": 1,
+    "price": 100000,
+    "status": "Available"
+  },
+  {
+    "id": 10,
+    "name": "rina",
+    "species": "Cat",
+    "breed": "Scottish Fold",
+    "ageMonths": 3,
+    "price": 40000,
+    "status": "Available"
+  }
+]
